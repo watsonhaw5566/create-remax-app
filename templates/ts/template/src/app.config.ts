@@ -2,10 +2,10 @@
 const pages = ['pages/index/index'];
 const color = '#282c34';
 
-import { AppConfig as WechatAppConfig } from 'remax/wechat';
-import { AppConfig as AliAppConfig } from 'remax/ali';
-import { AppConfig as ToutiaoAppConfig } from 'remax/toutiao';
-import { AppConfig as WebAppConfig } from 'remax/web';
+import { AppConfig as WechatAppConfig } from 'remax3/wechat';
+import { AppConfig as AliAppConfig } from 'remax3/ali';
+import { AppConfig as ToutiaoAppConfig } from 'remax3/toutiao';
+import { AppConfig as WebAppConfig } from 'remax3/web';
 
 export const wechat: WechatAppConfig = {
   pages,
@@ -69,7 +69,7 @@ export const web: WebAppConfig = {
   },
 };
 <% } else { -%>
-import { AppConfig } from "remax/<%= platform %>";
+import { AppConfig } from "remax3/<%= platform %>";
 
 const config: AppConfig = {
   pages: ['pages/index/index'],

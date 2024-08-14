@@ -5,7 +5,7 @@
 ### 使用 npm
 
 ```sh
-npx create-remax-app first-remax-app
+npx create-remax3-app first-remax-app
 cd first-remax-app && npm i
 npm run dev
 ```
@@ -16,7 +16,7 @@ npm run dev
 ### 使用 yarn
 
 ```sh
-yarn create remax-app first-remax-app
+yarn create-remax3-app first-remax-app
 cd first-remax-app && yarn
 yarn dev
 ```
@@ -24,7 +24,7 @@ yarn dev
 ### 使用 pnpm
 
 ```sh
-pnpm create remax-app first-remax-app
+pnpm create-remax3-app first-remax-app
 cd first-remax-app && pnpm
 pnpm dev
 ```

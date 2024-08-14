@@ -15,7 +15,14 @@
 安装依赖
 
 ```bash
+# npm 
 npm install
+
+# yarn
+yarn 
+
+# pnpm
+pnpm i
 ```
 
 调试项目

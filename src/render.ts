@@ -80,7 +80,7 @@ export default async ({ projectDirectory, t }: ArgvType) => {
     .use(renderTemplateFiles())
     .use(removeFile())
     .use(generatorOutputInfo())
-    .build((err: Error) => {
+    .build(err => {
       if (!err) {
         const cd = chalk.cyan(` cd ${projectDirectory} && npm i`);
         const platformList = chalk.yellow('ali, wechat, toutiao, web');
@@ -185,7 +185,7 @@ const renderTemplateFiles = () => {
         try {
           const res = ejs.render(str, metalsmithMetadata);
           files[file].contents = Buffer.from(res, 'utf-8');
-        } catch (err) {
+        } catch (err: any) {
           err.message = `[${file}] ${err.message}`;
           return next(err);
         }

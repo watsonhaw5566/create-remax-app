@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { View, Text, Image } from 'remax/<%= platform %>';
+import { View, Text, Image } from 'remax3/<%= platform %>';
 import styles from './index.css';
 
 export default () => {

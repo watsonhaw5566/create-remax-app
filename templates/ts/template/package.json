@@ -17,11 +17,11 @@
 <% } -%>
   },
   "dependencies": {
-    "react": "^16.14.0",
+    "react": "^18.3.0",
 <% if (one) { -%>
-    "react-dom": "^16.14.0",
+    "react-dom": "^18.3.0",
 <% } -%>
-    "remax": "^2.11.2"
+    "remax3": "^1.0.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
